@@ -79,9 +79,12 @@ def adding_matz
           :languages => ["C"]
         }
      }
-   programmer_hash[:yukihiro_matsumoto] = :known_for => "COBOL", 
+   programmer_hash[:yukihiro_matsumoto] = {
+     :known_for => "COBOL",
+     :languages => ["LISP", "C"] }
     
 end
+programmer_hash
 
 def changing_alan
 	programmer_hash = 
